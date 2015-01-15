@@ -1,0 +1,23 @@
+{
+    "name": "mijat/page",
+    "description": "",
+    "authors": [
+        {
+            "name": "Mijat",
+            "email": "ivanmijatovic89@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Mijat\\Page\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
