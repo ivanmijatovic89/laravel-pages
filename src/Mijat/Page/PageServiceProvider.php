@@ -20,8 +20,7 @@ class PageServiceProvider extends ServiceProvider {
 	public function boot()
 	{
 		$this->package('mijat/page');
-
-		include __DIR__.'/../../routes.php';
+		require __DIR__.'/../../routes.php';
 		\View::addNamespace('package', __DIR__.'/../../views');
 	}
 
