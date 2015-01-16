@@ -21,6 +21,7 @@ class PagesController extends BaseController {
      */
     public function index()
     {
+        echo( Config::get('package::mijat.name') );
 
         $pages = $this->page->all();
 

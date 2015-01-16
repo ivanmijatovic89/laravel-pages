@@ -21,6 +21,8 @@ class PageServiceProvider extends ServiceProvider {
 	{
 		$this->package('mijat/page');
 		require __DIR__.'/../../routes.php';
+		// add namespaces to View and Config !
+		\Config::addNamespace('package', __DIR__.'/../../config');
 		\View::addNamespace('package', __DIR__.'/../../views');
 	}
 
