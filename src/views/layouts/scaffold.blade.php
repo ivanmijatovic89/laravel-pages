@@ -9,6 +9,8 @@
 			.error { color: red; font-style: italic; }
 			body { padding-top: 20px; }
 		</style>
+		@section('header')
+		@show
 	</head>
 
 	<body>

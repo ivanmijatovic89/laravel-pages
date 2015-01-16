@@ -1,5 +1,9 @@
 @extends('package::layouts.scaffold')
 
+@section('header')
+    {{HTML::style('packages/mijat/page/css/css.css')}}
+@stop
+
 @section('main')
 
 <h1>Create Page</h1>

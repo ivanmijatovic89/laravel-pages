@@ -6,3 +6,6 @@ Add to app.php
 
 Run Migration:
     php artisan migrate --package="mijat/page"
+
+Publish public - assets to /public/packages/mijat/pages
+    php artisan asset:publish mijat/page
